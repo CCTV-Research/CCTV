@@ -1,0 +1,6 @@
+train: C:\Users\dhshs\Documents\CCTV(2)\source\shoe_detection_dataset\extracted_shoes_dataset\train
+val: C:\Users\dhshs\Documents\CCTV(2)\source\shoe_detection_dataset\extracted_shoes_dataset\valid
+test: C:\Users\dhshs\Documents\CCTV(2)\source\shoe_detection_dataset\extracted_shoes_dataset\test
+
+nc: 1
+names: ["shoes"]

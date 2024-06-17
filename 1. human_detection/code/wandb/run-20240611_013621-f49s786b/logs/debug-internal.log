@@ -1,0 +1,89 @@
+2024-06-11 01:36:27,889 INFO    StreamThr :11992 [internal.py:wandb_internal():85] W&B internal server running at pid: 11992, started at: 2024-06-11 01:36:27.888799
+2024-06-11 01:36:27,896 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status
+2024-06-11 01:36:27,898 INFO    WriterThread:11992 [datastore.py:open_for_write():87] open: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\run-f49s786b.wandb
+2024-06-11 01:36:27,908 DEBUG   SenderThread:11992 [sender.py:send():379] send: header
+2024-06-11 01:36:27,909 DEBUG   SenderThread:11992 [sender.py:send():379] send: run
+2024-06-11 01:36:28,523 INFO    SenderThread:11992 [dir_watcher.py:__init__():211] watching files in: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files
+2024-06-11 01:36:28,524 INFO    SenderThread:11992 [sender.py:_start_run_threads():1188] run started: f49s786b with start time 1718037387.28069
+2024-06-11 01:36:28,536 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: check_version
+2024-06-11 01:36:28,537 DEBUG   SenderThread:11992 [sender.py:send_request():406] send_request: check_version
+2024-06-11 01:36:28,614 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: run_start
+2024-06-11 01:36:28,643 DEBUG   HandlerThread:11992 [system_info.py:__init__():26] System info init
+2024-06-11 01:36:28,643 DEBUG   HandlerThread:11992 [system_info.py:__init__():41] System info init done
+2024-06-11 01:36:28,643 INFO    HandlerThread:11992 [system_monitor.py:start():194] Starting system monitor
+2024-06-11 01:36:28,644 INFO    SystemMonitor:11992 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-11 01:36:28,644 INFO    HandlerThread:11992 [system_monitor.py:probe():214] Collecting system info
+2024-06-11 01:36:28,649 INFO    SystemMonitor:11992 [interfaces.py:start():188] Started cpu monitoring
+2024-06-11 01:36:28,650 DEBUG   HandlerThread:11992 [system_info.py:probe():152] Probing system
+2024-06-11 01:36:28,650 INFO    SystemMonitor:11992 [interfaces.py:start():188] Started disk monitoring
+2024-06-11 01:36:28,651 INFO    SystemMonitor:11992 [interfaces.py:start():188] Started gpu monitoring
+2024-06-11 01:36:28,651 INFO    SystemMonitor:11992 [interfaces.py:start():188] Started memory monitoring
+2024-06-11 01:36:28,677 INFO    SystemMonitor:11992 [interfaces.py:start():188] Started network monitoring
+2024-06-11 01:36:28,678 DEBUG   HandlerThread:11992 [gitlib.py:_init_repo():56] git repository is invalid
+2024-06-11 01:36:28,679 DEBUG   HandlerThread:11992 [system_info.py:probe():200] Probing system done
+2024-06-11 01:36:28,679 DEBUG   HandlerThread:11992 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.7', 'heartbeatAt': '2024-06-10T16:36:28.650616', 'startedAt': '2024-06-10T16:36:21.572117', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'vsa', 'username': 'dhshs', 'executable': 'c:\\Users\\dhshs\\anaconda3\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 2500.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 2500.0}], 'disk': {'/': {'total': 476.55858993530273, 'used': 225.3953399658203}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 15.708114624023438}}
+2024-06-11 01:36:28,679 INFO    HandlerThread:11992 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-11 01:36:28,680 INFO    HandlerThread:11992 [system_monitor.py:probe():227] Publishing system info
+2024-06-11 01:36:28,680 DEBUG   HandlerThread:11992 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-11 01:36:29,527 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\conda-environment.yaml
+2024-06-11 01:36:36,598 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\conda-environment.yaml
+2024-06-11 01:36:36,640 DEBUG   HandlerThread:11992 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-11 01:36:36,641 INFO    HandlerThread:11992 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-11 01:36:36,641 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:36:36,641 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-11 01:36:36,642 DEBUG   SenderThread:11992 [sender.py:send():379] send: files
+2024-06-11 01:36:36,642 INFO    SenderThread:11992 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-11 01:36:36,989 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-11 01:36:36,990 DEBUG   SenderThread:11992 [sender.py:send_request():406] send_request: python_packages
+2024-06-11 01:36:36,990 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 01:36:36,991 DEBUG   SenderThread:11992 [sender.py:send_request():406] send_request: stop_status
+2024-06-11 01:36:36,993 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:37,418 DEBUG   SenderThread:11992 [sender.py:send():379] send: telemetry
+2024-06-11 01:36:37,419 INFO    wandb-upload_0:11992 [upload_job.py:push():130] Uploaded file C:\Users\dhshs\AppData\Local\Temp\tmpqx5_glw1wandb\ptj08u69-wandb-metadata.json
+2024-06-11 01:36:37,609 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\wandb-metadata.json
+2024-06-11 01:36:37,609 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\output.log
+2024-06-11 01:36:37,609 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\requirements.txt
+2024-06-11 01:36:37,997 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:39,001 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:39,445 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:36:39,638 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\output.log
+2024-06-11 01:36:40,004 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:41,009 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:42,006 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:43,023 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:44,032 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:45,018 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:36:45,046 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:46,059 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:47,065 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:48,071 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:49,094 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:50,074 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:51,021 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:36:51,078 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:51,991 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 01:36:51,991 DEBUG   SenderThread:11992 [sender.py:send_request():406] send_request: stop_status
+2024-06-11 01:36:52,100 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:53,113 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:54,130 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:55,144 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:56,161 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:56,430 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:36:57,177 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:58,186 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:36:59,200 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:00,189 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:01,199 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:02,027 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:37:02,201 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:02,847 INFO    Thread-28 :11992 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\dhshs\Documents\CCTV(2)\2. shoes based face recognition\code\wandb\run-20240611_013621-f49s786b\files\config.yaml
+2024-06-11 01:37:03,210 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:04,226 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:05,216 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:06,221 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:06,986 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-11 01:37:06,987 DEBUG   SenderThread:11992 [sender.py:send_request():406] send_request: stop_status
+2024-06-11 01:37:07,244 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:07,320 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: status_report
+2024-06-11 01:37:08,247 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-11 01:37:09,260 DEBUG   HandlerThread:11992 [handler.py:handle_request():158] handle_request: internal_messages

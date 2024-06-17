@@ -1,0 +1,93 @@
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Configure stats pid to 24588
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Loading settings from C:\Users\dhshs\.config\wandb\settings
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Loading settings from c:\Users\dhshs\Documents\CCTV(2)\2. shoes_detection\code\wandb\settings
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-12 00:45:34,789 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-12 00:45:34,790 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-12 00:45:34,790 INFO    MainThread:24588 [wandb_init.py:_log_setup():520] Logging user logs to c:\Users\dhshs\Documents\CCTV(2)\2. shoes_detection\code\wandb\run-20240612_004534-q6qtskbw\logs\debug.log
+2024-06-12 00:45:34,790 INFO    MainThread:24588 [wandb_init.py:_log_setup():521] Logging internal logs to c:\Users\dhshs\Documents\CCTV(2)\2. shoes_detection\code\wandb\run-20240612_004534-q6qtskbw\logs\debug-internal.log
+2024-06-12 00:45:34,790 INFO    MainThread:24588 [wandb_init.py:init():560] calling init triggers
+2024-06-12 00:45:34,791 INFO    MainThread:24588 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-12 00:45:34,791 INFO    MainThread:24588 [wandb_init.py:init():585] re-initializing run, found existing run on stack: vim75nsf
+2024-06-12 00:45:34,793 INFO    MainThread:24588 [wandb_run.py:_finish():2109] finishing run lovesjns1030/footwear-detection/vim75nsf
+2024-06-12 00:45:34,793 INFO    MainThread:24588 [jupyter.py:save_history():444] not saving jupyter history
+2024-06-12 00:45:34,793 INFO    MainThread:24588 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-12 00:45:34,793 INFO    MainThread:24588 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-06-12 00:45:34,793 INFO    MainThread:24588 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-06-12 00:45:34,794 INFO    MainThread:24588 [wandb_run.py:_restore():2332] restore
+2024-06-12 00:45:34,794 INFO    MainThread:24588 [wandb_run.py:_restore():2338] restore done
+2024-06-12 00:45:37,981 INFO    MainThread:24588 [wandb_run.py:_footer_history_summary_info():4008] rendering history
+2024-06-12 00:45:37,984 INFO    MainThread:24588 [wandb_run.py:_footer_history_summary_info():4040] rendering summary
+2024-06-12 00:45:37,998 INFO    MainThread:24588 [wandb_run.py:_footer_sync_info():3967] logging synced files
+2024-06-12 00:45:38,046 INFO    MainThread:24588 [wandb_init.py:init():610] starting backend
+2024-06-12 00:45:38,046 INFO    MainThread:24588 [wandb_init.py:init():614] setting up manager
+2024-06-12 00:45:38,048 INFO    MainThread:24588 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-06-12 00:45:38,049 INFO    MainThread:24588 [wandb_init.py:init():622] backend started and connected
+2024-06-12 00:45:38,062 INFO    MainThread:24588 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-12 00:45:38,063 INFO    MainThread:24588 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-12 00:45:38,063 INFO    MainThread:24588 [wandb_init.py:init():711] updated telemetry
+2024-06-12 00:45:38,067 INFO    MainThread:24588 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-12 00:45:39,775 INFO    MainThread:24588 [wandb_run.py:_on_init():2402] communicating current version
+2024-06-12 00:45:39,860 INFO    MainThread:24588 [wandb_run.py:_on_init():2411] got version response 
+2024-06-12 00:45:39,860 INFO    MainThread:24588 [wandb_init.py:init():795] starting run threads in backend
+2024-06-12 00:45:42,879 WARNING MainThread:24588 [wandb_init.py:init():1175] interrupted
+Traceback (most recent call last):
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 1171, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 808, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\threading.py", line 629, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\threading.py", line 331, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-06-12 00:45:50,881 INFO    MainThread:24588 [wandb_settings.py:_apply_login():1911] Applying login settings: {}
+2024-06-12 00:45:50,888 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Current SDK version is 0.17.1
+2024-06-12 00:45:50,889 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Configure stats pid to 24588
+2024-06-12 00:45:50,889 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Loading settings from C:\Users\dhshs\.config\wandb\settings
+2024-06-12 00:45:50,889 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Loading settings from c:\Users\dhshs\Documents\CCTV(2)\2. shoes_detection\code\wandb\settings
+2024-06-12 00:45:50,889 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-12 00:45:50,889 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_init.py:_log_setup():520] Logging user logs to c:\Users\dhshs\Documents\CCTV(2)\2. shoes_detection\code\wandb\run-20240612_004550-0fto8vvd\logs\debug.log
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_init.py:_log_setup():521] Logging internal logs to c:\Users\dhshs\Documents\CCTV(2)\2. shoes_detection\code\wandb\run-20240612_004550-0fto8vvd\logs\debug-internal.log
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000011D97567110>
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_init.py:init():560] calling init triggers
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-12 00:45:50,890 INFO    MainThread:24588 [wandb_init.py:init():610] starting backend
+2024-06-12 00:45:50,891 INFO    MainThread:24588 [wandb_init.py:init():614] setting up manager
+2024-06-12 00:45:50,892 INFO    MainThread:24588 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-06-12 00:45:50,893 INFO    MainThread:24588 [wandb_init.py:init():622] backend started and connected
+2024-06-12 00:45:50,901 INFO    MainThread:24588 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-12 00:45:50,901 INFO    MainThread:24588 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-12 00:45:50,901 INFO    MainThread:24588 [wandb_init.py:init():711] updated telemetry
+2024-06-12 00:45:50,904 INFO    MainThread:24588 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-12 00:47:21,120 ERROR   MainThread:24588 [wandb_init.py:init():770] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-06-12 00:47:21,121 ERROR   MainThread:24588 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 1171, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "c:\Users\dhshs\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

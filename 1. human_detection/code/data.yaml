@@ -1,0 +1,5 @@
+train: C:\Users\dhshs\Documents\CCTV(2)\1. human_detection\train\images
+val: C:\Users\dhshs\Documents\CCTV(2)\1. human_detection\valid\images
+
+nc: 1
+names: ["person"]
